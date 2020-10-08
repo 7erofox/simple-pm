@@ -19,6 +19,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 
+gem 'pry-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -54,3 +56,5 @@ end
 
 gem 'nested_scaffold'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
+gem "stimulus_reflex", "~> 3.3"

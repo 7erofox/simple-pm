@@ -1,0 +1,21 @@
+.project-card {
+  transition: background-color 0.5s ease;
+  &:hover {
+    background-color: #808080;
+  }
+}
+
+#tasks-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-status {
+  .grip {
+    font-size: 1.1ren;
+    cursor: grab;
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}
