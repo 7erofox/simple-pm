@@ -12,7 +12,7 @@ export default class extends ApplicationController {
       return {id: task.dataset.taskId, position: (index + 1) }
     } )
     element.dataset.tasks = JSON.stringify(tasks)
-    this.stimulate('TasksReflex#short', element)
+    this.stimulate('TasksReflex#sort', element)
   }
 
 }
